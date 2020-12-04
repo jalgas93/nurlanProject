@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding"
+    tools:context=".NotificationtwoActivity">
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Уведомление"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/second_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="321dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/settings" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="91dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_main_rec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="120dp"
+            android:text="Поздравляем! Вашему \nмалышу сегодня"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="221dp"
+            android:layout_marginTop="110dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/not_first" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/thirteen" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="231dp"
+            android:layout_marginTop="155dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/week" />
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/setting2_vector" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="219dp"
+        android:layout_centerHorizontal="true">
+
+        <!--        <ImageView-->
+
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_weight="1"-->
+        <!--            app:srcCompat="@drawable/notification_rectangle" />-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_circle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification1" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="89dp"
+            android:text="Название события"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="89dp"
+            android:text="10:00"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="normal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="268dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_circle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="21dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_home" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="271dp"
+        android:layout_marginLeft="125dp"
+        android:text="Заметки:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="125dp"
+        android:text="Текст Текст Текст Текст Текст Текст \nТекст Текст Текст Текст Текст Текст\nТекст Текст Текст Текст Текст Текст \nТекст Текст Текст Текст Текст Текст \nТекст Текст Текст Текст Текст Текст\nТекст Текст Текст Текст Текст Текст \nТекст Текст Текст Текст Текст Текст \nТекст Текст Текст Текст Текст Текст"
+        android:textColor="@color/colorPrimary"
+        android:textSize="11dp"
+        android:textStyle="normal"
+        />
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="442dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_rectangle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_circle2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification1" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="89dp"
+            android:text="Название события"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="89dp"
+            android:text="10:00"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="normal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="268dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_circle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="21dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_home" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="512dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_rectangle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification_circle3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/notification1" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="89dp"
+            android:text="Название события"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="89dp"
+            android:text="10:00"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11dp"
+            android:textStyle="normal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="268dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_circle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="21dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_down_home" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/go_home_fsnotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/calendar_homep" />
+
+        <ImageButton
+            android:id="@+id/go_notification_fsnotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/notification" />
+
+        <ImageButton
+            android:id="@+id/hospital_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hospital" />
+
+        <ImageButton
+            android:id="@+id/go_liked_fsnotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:id="@+id/not_second_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/person_icon" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

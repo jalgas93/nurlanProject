@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    tools:context=".content.child.add_new_child.AddChildActivity">
+
+
+    <ImageView
+        android:id="@+id/childv"
+        android:layout_width="144dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="83dp"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/baby" />
+
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp">
+
+
+
+        <Button
+            android:id="@+id/add_child_btn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_bg"
+            android:text="Добавить ребенка"
+            android:drawableRight="@drawable/plus"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signin_buttontext_size"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/add_child_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bottom_button_margin_right"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button_bg"
+            android:text="Пропустить"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signin_buttontext_size"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

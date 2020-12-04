@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdviceActivity">
+
+    <ImageButton
+        android:id="@+id/go_pr_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/covid_rectangle"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="366dp"
+        tools:ignore="MissingConstraints"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="87dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/go_open_blogp"
+            android:layout_width="55dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/community" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="80dp"
+            android:text="Игры с детьми в 0-4месяца"
+            android:textSize="12dp"
+            android:textStyle="normal"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/dot" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/dot" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/dot" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="385dp"
+            app:srcCompat="@drawable/dot" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="89dp"
+            android:layout_marginLeft="25dp"
+            android:text="При рождении здоровый ребенок обладает зрением, слухом и обонянием. Он узнает свою мать по ее голосу, запаху и лицу.
+"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"
+            android:text="Отец играет важную роль в развитии ребенка
+и должен участвовать в оказании ухода.
+"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="30dp"
+            android:text="Ребенок может научиться многому у своих старших братьев и сестер, подражая и копируя их, поэтому братья, сестры и другие родственники должны участвовать в уходе за ребенком."
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/go_home_fcommunication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/calendar_homep" />
+
+        <ImageButton
+            android:id="@+id/go_notification_fcommunication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/notification" />
+
+        <ImageButton
+            android:id="@+id/go_hospital_fcommunication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hospital" />
+
+        <ImageButton
+            android:id="@+id/go_liked_fcommunication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/person_icon" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileMother">
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Профайл"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="321dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/settings" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMother"
+            android:layout_width="140dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button_bg"
+            android:text="Для родителей"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnBaby"
+            android:layout_width="120dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_bg"
+            android:text="Детки"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="128dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/profilem_rectangle" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        android:src="@drawable/resizedprof_mother" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Рекоммендации по вашему сроку"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="39dp"
+            android:background="@drawable/hre3"
+            android:src="@android:color/transparent"/>
+        <TextView
+            android:layout_marginStart="75dp"
+            android:text="Питание"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            app:layout_constraintTop_toBottomOf="@id/btn1"
+            app:layout_constraintStart_toStartOf="@id/btn1"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:background="@drawable/hre2"
+            android:src="@android:color/transparent" />
+
+        <TextView
+            android:text="Посещение врача"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@id/btn1"
+            app:layout_constraintStart_toStartOf="@id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/btn1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:background="@drawable/hre5"
+            android:src="@android:color/transparent"/>
+        <TextView
+            android:text="Сон"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="64dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/btn1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn3"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            app:layout_constraintStart_toStartOf="@id/btn3"
+            android:src="@android:color/transparent"
+            android:background="@drawable/hre4" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="4dp"
+            android:text="О вашем здоровье"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="@id/btn3"
+            app:layout_constraintTop_toBottomOf="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

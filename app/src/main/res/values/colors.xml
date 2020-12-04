@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3700B3</color>
+    <color name="colorText"> #FFFFFF </color>
+
+    <color name="red">#dc2126</color>
+    <color name="purple">#6c6eb2</color>
+    <color name="green">#12b293</color>
+    <color name="grey">#f1f3f4</color>
+    <color name="greyDark">#99414d58</color>
+    <color name="disabled">#77414d58</color>
+
+
+    <!-- Ripples -->
+    <color name="white_ripple_pre_lollipop">#F2F2F2</color>
+    <color name="white_ripple_lollipop">#E6E6E6</color>
+</resources>

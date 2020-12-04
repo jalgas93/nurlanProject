@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.nurtbayev.childcare">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baby_mother"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/baby_mother"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".content.child.add_new_child.AddChildActivity"></activity>
+        <activity
+            android:name=".content.FoundationActivity"
+            android:label="@string/title_activity_foundation" />
+        <activity android:name=".ProfileBaby" />
+        <activity android:name=".ProfileMother" />
+        <activity android:name=".OkActivity" />
+        <activity android:name=".FilloutActivity" />
+        <activity android:name=".EmergencyCallActivity" />
+        <activity android:name=".SurveySecondActivity" />
+        <activity android:name=".SurveyActivity" />
+        <activity android:name=".CommunicationArticleActivity" />
+        <activity android:name=".PlayArticleActivity" />
+        <activity android:name=".EmotionArticle" />
+        <activity android:name=".AdviceActivity" />
+        <activity android:name=".ChildlistActivity" />
+        <activity android:name=".SupportActivity" />
+        <activity android:name=".CovidArticleActivity" />
+        <activity android:name=".content.child.my_childs.MyChildrenActivity" />
+        <activity android:name=".OpenBlogActivity" />
+        <activity android:name=".CovidActivity" />
+        <activity android:name=".OpenArticleActivity" />
+        <activity android:name=".InfromativeActivity" />
+        <activity android:name=".NotificationtwoActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".content.child.add_new_child.ChildActivity" />
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".content.personal_informations.PersonalInformationActivity" />
+        <activity android:name=".sign_in.LoginActivity" />
+        <activity android:name=".sign_up.SignupActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".UslugaActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

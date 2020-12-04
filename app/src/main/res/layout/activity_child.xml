@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".content.child.add_new_child.ChildActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/personal_information"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_alignBottom="@+id/babyfingers"-->
+<!--        android:layout_marginBottom="-24dp"-->
+<!--        android:layout_weight="1"-->
+<!--        app:srcCompat="@drawable/trectangle" />-->
+
+
+    <ImageView
+        android:id="@+id/babyfingers"
+        android:layout_width="110dp"
+        android:layout_height="86dp"
+        android:layout_alignTop="@+id/childv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/baby" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавьте информацию о вашем ребенке!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/personal_information_edit_margin"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:hint="Как вы любите его называть?"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <Spinner
+            android:id="@+id/et_gender"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/personal_information_edit_margin"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableRight="@drawable/arrow_down"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+
+        <EditText
+            android:id="@+id/et_birthday"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/personal_information_edit_margin"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableRight="@drawable/calendar"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:ems="10"
+            android:hint="Дата рождения"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <EditText
+            android:id="@+id/input_term"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/personal_information_edit_margin"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:ems="10"
+            android:hint="Хронические заболевания"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_alignParentLeft="true">
+
+
+
+        <Button
+            android:id="@+id/go_to_homepage"
+            android:layout_width="107dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="225dp"
+            android:background="@drawable/button_bg"
+            android:text="Далее"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signin_buttontext_size"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

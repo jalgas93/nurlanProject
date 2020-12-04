@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/fin_nav_home_foreground"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/fin_nav_calendar_foreground"
+        android:title="Календарь" />
+
+    <item
+        android:id="@+id/navigation_hospital"
+        android:icon="@drawable/fin_nav_hospitals_foreground"
+        android:title="Больницы" />
+
+    <item
+        android:id="@+id/navigation_likes"
+        android:icon="@drawable/fin_nav_likes_foreground"
+        android:title="Избранное" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/fin_nav_profile_foreground"
+        android:title="Профиль" />
+
+
+</menu>

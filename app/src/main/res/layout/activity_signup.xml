@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding"
+    tools:context=".sign_up.SignupActivity">
+
+
+    <ImageView
+        android:id="@+id/unicefLogin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/unicef_margin_left"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="@dimen/unicef_margin_right"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/unicef" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="72dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Добро пожаловать!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/signin_firsttext"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/secondTopText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Создайте свой аккаунт"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/signin_secondtext"
+            android:textStyle="normal"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:hint="@string/name"
+            android:textSize="@dimen/edit_text_size"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding" />
+
+
+        <EditText
+            android:id="@+id/inputphone"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/signup_edit_indents"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:hint="@string/phone"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"
+            />
+
+        <EditText
+            android:id="@+id/inputEmail_su"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/signup_edit_indents"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+
+
+        <EditText
+            android:id="@+id/inputPassword_su"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="@dimen/edit_text_width_size"
+            android:layout_height="@dimen/edit_text_height_size"
+            android:layout_marginLeft="@dimen/signin_margin_left"
+            android:layout_marginTop="@dimen/signup_edit_indents"
+            android:layout_marginRight="@dimen/signin_margib_right"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/key"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="@dimen/edit_text_padding"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:padding="@dimen/edit_text_padding"
+            android:textSize="@dimen/edit_text_size"/>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="305dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/singIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Уже есть аккаунт?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="107dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/button_bg"
+            android:text="Далее"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/signin_buttontext_size"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/Vectortwo"
+        android:layout_width="120dp"
+        android:layout_height="127dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/vector" />
+
+    <ImageView
+        android:id="@+id/Shapetwo"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/shapeone" />
+
+
+
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_hospital"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@id/tvInfoOrganization"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/hospital_image"
+        android:layout_width="104dp"
+        android:layout_height="84dp"/>
+    <TextView
+        android:id="@+id/tvNameOrganization"
+        app:layout_constraintStart_toEndOf="@id/iv_hospital"
+        app:layout_constraintTop_toTopOf="@id/iv_hospital"
+        android:layout_marginStart="8dp"
+        android:text="Название учреждения"
+        android:textSize="13sp"
+        android:singleLine="false"
+        android:maxEms="15"
+        android:layout_marginLeft="2dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvInfoOrganization"
+        app:layout_constraintStart_toEndOf="@id/iv_hospital"
+        app:layout_constraintTop_toBottomOf="@id/tvNameOrganization"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Назваине организации"
+        android:singleLine="false"
+        android:maxEms="15"
+        android:textSize="12sp"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvLocationHospital"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoOrganization"
+        app:layout_constraintStart_toEndOf="@id/iv_hospital"
+        android:layout_marginStart="8dp"
+        android:drawableLeft="@drawable/location"
+        android:text="Алматы,адрес"
+        android:textSize="12sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

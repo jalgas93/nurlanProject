@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Unicef</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="signin_button_lablel">Войти</string>
+    <string name="email">  E-mail  </string>
+    <string name="password"> Пароль </string>
+    <string name="forgot_password"> Забыли пароль? </string>
+    <string name="create_account"> Создать аккаунт </string>
+    <string name="name"> ФИО </string>
+    <string name="phone"> Номер телефона </string>
+    <string name="confirm_password"> Подтверждение пароля </string>
+
+
+    //Обработка ошибок
+    <string name="error_unknown_title">Что-то пошло не так…</string>
+    <string name="error_unknown_body">Пожалуйста проверьте ваше интернет соединение или попробуйте позднее</string>
+    <string name="error_failed_connection_to_server">Не удалось установить соединение с сервером: \n</string>
+    <string name="error_no_internet_title">Отсутствует интернет соединение</string>
+    <string name="error_no_internet_msg">Пожалуйста проверьте ваше интернет соединение и попробуйте ещё раз</string>
+    <string name="error_auth_wrong_data_title">Авторизация не пройдена</string>
+    <string name="error_auth_wrong_data_msg">Вы ввели неверный логин или пароль. Пожалуйста, проверьте ваши данные и попробуйте ещё раз</string>
+
+
+    <string name="error_su_wrong_data_title">Регистрация не пройдена</string>
+    <string name="error_su_wrong_data_msg">Пожалуйста, проверьте ваши данные и попробуйте ещё раз</string>
+
+
+    //Диалог
+    <string name="dialog_retry">Ещё раз</string>
+    <string name="dialog_exit">Выйти</string>
+    <string name="title_activity_foundation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

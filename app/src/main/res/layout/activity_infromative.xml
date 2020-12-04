@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding"
+    tools:context=".InfromativeActivity">
+
+
+    <ImageView
+
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/unicef" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="17.67dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/location" />
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="520dp"
+        android:paddingRight="6dp"
+        android:text="Казахстан, Алматы"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="72dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Здравствуйте, Алина!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="103dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В случае, если Вы являетесь жертвой насилия или \nвы имеете риск насилия со стороны домодчадцев, \nЕсли Вы подвергаетесь домашнему насилию \nВы можете обратиться в правоохранительные \nорганы по телефону"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/personal_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/call" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="или в кризисные центры в Вашем регионе.Вы имеете право на получение специальных социальных услуг, защиту и помощь.При обращении в полицию Вам необходимо:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:text="написать заявление"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="получить направление на прохождение судебно-медицинской экспертизы, на получение защитного предписания и  обратиться в суд для защиты ваших конституционных прав и интересов;"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="385dp"
+        app:srcCompat="@drawable/dot" />
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="430dp"
+
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rec_white" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/harmful" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Насилие над детьми.\nВиды насилия"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/covid_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/calendar_homep" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/notification" />
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hospital" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/person_icon" />
+    </RelativeLayout>
+</RelativeLayout>
+
+
+

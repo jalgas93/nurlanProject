@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CovidArticleActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_covid"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/go_covid_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/covid_rectangle"
+        android:background="#efe9fb"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/cov_image"
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/withnewborn" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="180dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/circle" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Для детей раннего возраста"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="86dp"
+        android:textStyle="normal" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5-сентября 2020"
+        android:textColor="@color/colorPrimary"
+        android:textSize="8dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="86dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/cov_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Важность материнского молока для\nребенка."
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cov_des"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="280dp"
+        android:text="«Текст» — российский криминально-драматический психологический триллер режиссёра Клима Шипенко, экранизация романа-бестселлера «Текст» (2017) писателя Дмитрия Глуховского, который сам адаптировал свой роман в киносценарий[5]. Фильм рассказывает об Илье Горюнове, который получает доступ к смартфону своего врага Петра Хазина, а вместе с ним — доступ к жизни героя, и на время становится для всех Хазиным, отправляя сообщения его начальству, родителям и девушке Нине, в которую влюбляется и сам."
+        android:textColor="@color/colorPrimary"
+        android:textSize="11dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="425dp"
+        android:text="«Текст» — российский криминально-драматический психологический триллер режиссёра Клима Шипенко, экранизация романа-бестселлера «Текст» (2017) писателя Дмитрия Глуховского, который сам адаптировал свой роман в киносценарий[5]. Фильм рассказывает об Илье Горюнове, который получает доступ к смартфону своего врага Петра Хазина, а вместе с ним — доступ к жизни героя, и на время становится для всех Хазиным, отправляя сообщения его начальству, родителям и девушке Нине, в которую влюбляется и сам."
+        android:textColor="@color/colorPrimary"
+        android:textSize="11dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="570dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/favorite" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить в избранные"
+        android:textColor="#d0bef3"
+        android:textSize="8dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginLeft="53dp"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/calendar_homep" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/notification" />
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hospital" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/person_icon" />
+    </RelativeLayout>
+
+</RelativeLayout>

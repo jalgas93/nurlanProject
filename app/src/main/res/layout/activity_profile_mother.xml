@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileMother">
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Профайл"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="321dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/settings" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button_bg"
+            android:text="Для родителей"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/information_button"
+            android:layout_width="120dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_bg"
+            android:text="Детки"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_marginTop="170dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/profilem_rectangle" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/resizedprof_mother" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Рекоммендации по вашему сроку"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/btn1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="64dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hre3"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            app:layout_constraintTop_toBottomOf="@id/btn1"
+            app:layout_constraintStart_toStartOf="@id/btn1"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hre2" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/btn1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hre5"/>
+
+        <ImageButton
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn3"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            app:layout_constraintStart_toStartOf="@id/btn3"
+            android:background="@android:color/transparent"
+            android:src="@drawable/hre4" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

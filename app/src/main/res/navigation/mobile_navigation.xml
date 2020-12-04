@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="kz.nurtbayev.childcare.content.ui.home.HomeFragment"
+        android:label="Домашняя"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="kz.nurtbayev.childcare.content.ui.calendar.CalendarFragment"
+        android:label="Календарь"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_hospital"
+        android:name="kz.nurtbayev.childcare.content.ui.hospitals.HospitalsFragment"
+        android:label="Больницы"
+        tools:layout="@layout/fragment_hospitals" />
+
+    <fragment
+        android:id="@+id/navigation_likes"
+        android:name="kz.nurtbayev.childcare.content.ui.likes.LikesFragment"
+        android:label="Избранное"
+        tools:layout="@layout/fragment_likes" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="kz.nurtbayev.childcare.content.ui.profile.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/myChildrenActivity"
+        android:name="kz.nurtbayev.childcare.content.child.my_childs.MyChildrenActivity"
+        android:label="MyChildrenActivity" />
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="kz.nurtbayev.childcare.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+
+</navigation>

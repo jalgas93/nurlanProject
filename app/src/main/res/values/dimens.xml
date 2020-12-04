@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding"></dimen>
+    <dimen name="top_button_signin">369dp</dimen>
+    <dimen name="top_button_forgotpd">540dp</dimen>
+    <dimen name="signin_buttontext_size">16dp</dimen>
+    <dimen name="signin_margin_left">29dp</dimen>
+    <dimen name="signin_margib_right">26dp</dimen>
+    <dimen name="button_fontweight_size">700</dimen>
+    <dimen name="edit_text_width_size">305dp</dimen>
+    <dimen name="edit_text_height_size">35dp</dimen>
+    <dimen name="edit_text_size">14dp</dimen>
+    <dimen name="edit_text_padding">10dp</dimen>
+    <dimen name="forgot_pass_margintop">20dp</dimen>
+    <dimen name="signin_firsttext">24dp</dimen>
+    <dimen name="signin_secondtext">16dp</dimen>
+    <dimen name="unicef_margin_left">20dp</dimen>
+    <dimen name="unicef_margin_right">285dp</dimen>
+    <dimen name="signup_edit_indents">19dp</dimen>
+    <dimen name="personal_information_button">649</dimen>
+    <dimen name="personal_information_edit_margin">14dp</dimen>
+    <dimen name="bottom_button_margin_left">210dp</dimen>
+    <dimen name="bottom_button_margin_right">40dp</dimen>
+    <dimen name="button_next_margin_top">475dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
